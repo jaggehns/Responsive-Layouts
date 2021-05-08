@@ -9,13 +9,24 @@ body {
 .parent {
   background-color: #23424a;
   padding: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.child {
+/* .child {
   background-color: #38cfd9;
   height: 250px;
-}
-
+} */
 /*Work in percentages for width*/
 /*having absolute widths takes away responsiveness*/
 /*child has the % width of the parent*/
+
+.child {
+  background-color: #38cfd9;
+  width: 50%;
+  height: 250px;
+}
+
+/*CSS tries to not lose information*/
+/*if child has bigger width than parent, overflows*/
+/*always x% of the elements parent*/
