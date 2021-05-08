@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: #23424a;
+  padding: 50px;
+}
+
+.child {
+  background-color: #38cfd9;
+  height: 250px;
+}
+
+/*Work in percentages for width*/
+/*having absolute widths takes away responsiveness*/
+/*child has the % width of the parent*/
