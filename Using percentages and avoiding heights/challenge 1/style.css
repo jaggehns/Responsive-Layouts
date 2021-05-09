@@ -26,6 +26,7 @@ body {
   color: white;
 
   width: 80%;
+  max-width: 750px; /* adding max-width */
   margin: 0 auto;
 
   padding: 2em;
