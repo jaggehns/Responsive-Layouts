@@ -30,3 +30,11 @@ body {
 /*CSS tries to not lose information*/
 /*if child has bigger width than parent, overflows*/
 /*always x% of the elements parent*/
+
+.container {
+  background: #23424a;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5em;
+}
