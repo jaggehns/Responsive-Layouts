@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.intro {
+  background: #23424a;
+  padding: 100px 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+
+.intro-content {
+  width: 60%;
+}
+
+.intro-content a {
+  text-decoration: none;
+  border: 2px solid rgb(9, 174, 224);
+  background-color: rgb(9, 174, 224);
+  color: black;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.intro-content p {
+  padding-bottom: 30px;
+  font-size: 0.8;
+}
+
+.more-content {
+  background-color: white;
+  padding: 500px 0;
+}
